@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"><![CDATA[
+
+    />
+
+]]>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Title"
+        android:id="@+id/title11"
+        android:layout_alignParentTop="true"
+        android:textSize="15dp"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:layout_toRightOf="@+id/newstime11"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:id="@+id/image11"
+        android:layout_alignBottom="@+id/title11" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Summary"
+        android:id="@+id/summary11"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_below="@+id/title11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="NewsTime"
+        android:id="@+id/newstime11"
+        android:textSize="30dp"
+        android:textColor="@color/abc_primary_text_disable_only_material_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="115dp" />
+
+</RelativeLayout>
